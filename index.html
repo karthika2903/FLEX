@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .whole{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        #first{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: greenyellow;
+            flex-direction: row;
+           width: 100%;
+           height: 200px;
+            color: black;
+            font-size: x-large;
+        
+        }
+        .three{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width:900%;
+        }
+        #nav{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            background-color: gainsboro;
+              width: 20%;
+              height:300px;
+            color: black;
+        
+        }
+        #article{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            background-color: whitesmoke;
+            width:60%;
+            height: 300px;
+            color: black;
+        }
+        #Aside{
+            display:flex;
+            flex-wrap: wrap;
+            background-color: gainsboro;
+            width:20%;
+            height:300px;
+            color: black;
+            flex-direction: column;
+        }
+        #last{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: greenyellow;
+            width: 100%;
+            height: 200px;
+            color: black;
+            font-size: x-large;
+        
+
+        }
+    </style>
+</head>
+<body>
+    <div class="whole">
+    <div id="first">Header</div>
+    <div class="three">
+        <div id="nav"><b>Nav</b></div>
+        <div id="article"><b>Article</b></div>
+        <div id="Aside"><b>Aside</b></div>
+    </div>
+    <div id="last">Footer</div>
+    </div>
+</body>
+</html>
